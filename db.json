@@ -1,5 +1,5 @@
 {
-    "callRecords": { 
+    "callRecords": {
         "records": [
             {
                 "customerId": 20205,
@@ -43,14 +43,12 @@
                 "startTimestamp": 1705700820000,
                 "endTimestamp": 1705704420000
             },
-            
             {
                 "customerId": 20205,
                 "callId": "8b2e40f0-c150-4b3d-938c-3894b09bade4",
                 "startTimestamp": 1705688220000,
                 "endTimestamp": 1705693800000
             },
-            
             {
                 "customerId": 20205,
                 "callId": "bb5ed98f-a2f8-41d9-a936-89601a7baea7",
@@ -63,14 +61,12 @@
                 "startTimestamp": 1705687080000,
                 "endTimestamp": 1705689240000
             },
-           
             {
                 "customerId": 20205,
                 "callId": "8a1e32ed-7f06-4951-a72d-d59ee3c0c133",
                 "startTimestamp": 1705579860000,
                 "endTimestamp": 1705580760000
             },
-            
             {
                 "customerId": 20205,
                 "callId": "ce60256f-b9c7-49de-a271-5cf7e3f7a25d",
@@ -89,7 +85,6 @@
                 "startTimestamp": 1705490520000,
                 "endTimestamp": 1705497180000
             },
-           
             {
                 "customerId": 20205,
                 "callId": "d89adec7-fd0d-4a6e-881e-e09694e52312",
@@ -102,7 +97,6 @@
                 "startTimestamp": 1705579800000,
                 "endTimestamp": 1705580700000
             },
-            
             {
                 "customerId": 20205,
                 "callId": "4be06bf3-ef88-4210-acdd-97e6fbe6e040",
