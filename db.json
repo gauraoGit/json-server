@@ -1,114 +1,14 @@
 {
-    "callRecords": {
-        "records": [
-            {
-                "customerId": 20205,
-                "callId": "373f7f26-3b5b-44db-8163-44c395973e12",
-                "startTimestamp": 1705687800000,
-                "endTimestamp": 1705693380000
-            },
-            {
-                "customerId": 20205,
-                "callId": "6f1ae36b-46c9-4560-b05c-80022ed858d1",
-                "startTimestamp": 1705580340000,
-                "endTimestamp": 1705581240000
-            },
-            {
-                "customerId": 20205,
-                "callId": "58bd88a6-8e72-4ac5-8a53-053fb5a817a8",
-                "startTimestamp": 1705306260000,
-                "endTimestamp": 1705308960000
-            },
-            {
-                "customerId": 20205,
-                "callId": "6e87c4fa-67a4-449e-a6cf-bda96f72596a",
-                "startTimestamp": 1705490760000,
-                "endTimestamp": 1705497420000
-            },
-            {
-                "customerId": 20205,
-                "callId": "cdefa296-f77d-4483-ae72-b54c854fa356",
-                "startTimestamp": 1705483740000,
-                "endTimestamp": 1705485420000
-            },
-            {
-                "customerId": 20205,
-                "callId": "c5be8bdf-a980-421b-af4d-30582f419d7c",
-                "startTimestamp": 1705579980000,
-                "endTimestamp": 1705580880000
-            },
-            {
-                "customerId": 20205,
-                "callId": "0bac11f8-50cc-41ce-bef7-43c23a7110ff",
-                "startTimestamp": 1705700820000,
-                "endTimestamp": 1705704420000
-            },
-            {
-                "customerId": 20205,
-                "callId": "8b2e40f0-c150-4b3d-938c-3894b09bade4",
-                "startTimestamp": 1705688220000,
-                "endTimestamp": 1705693800000
-            },
-            {
-                "customerId": 20205,
-                "callId": "bb5ed98f-a2f8-41d9-a936-89601a7baea7",
-                "startTimestamp": 1705700340000,
-                "endTimestamp": 1705703940000
-            },
-            {
-                "customerId": 20205,
-                "callId": "ec8a1b43-cdd5-4cfb-a593-e3ec148a3f3b",
-                "startTimestamp": 1705687080000,
-                "endTimestamp": 1705689240000
-            },
-            {
-                "customerId": 20205,
-                "callId": "8a1e32ed-7f06-4951-a72d-d59ee3c0c133",
-                "startTimestamp": 1705579860000,
-                "endTimestamp": 1705580760000
-            },
-            {
-                "customerId": 20205,
-                "callId": "ce60256f-b9c7-49de-a271-5cf7e3f7a25d",
-                "startTimestamp": 1705580460000,
-                "endTimestamp": 1705583160000
-            },
-            {
-                "customerId": 20205,
-                "callId": "cb9acb7f-0f59-4c0f-a645-c32267f873ad",
-                "startTimestamp": 1705687920000,
-                "endTimestamp": 1705693500000
-            },
-            {
-                "customerId": 20205,
-                "callId": "f41569cd-7f64-494f-bd69-7a0021121c4f",
-                "startTimestamp": 1705490520000,
-                "endTimestamp": 1705497180000
-            },
-            {
-                "customerId": 20205,
-                "callId": "d89adec7-fd0d-4a6e-881e-e09694e52312",
-                "startTimestamp": 1705306140000,
-                "endTimestamp": 1705308840000
-            },
-            {
-                "customerId": 20205,
-                "callId": "53feaf0f-68a8-4aa5-bf78-193711751c63",
-                "startTimestamp": 1705579800000,
-                "endTimestamp": 1705580700000
-            },
-            {
-                "customerId": 20205,
-                "callId": "4be06bf3-ef88-4210-acdd-97e6fbe6e040",
-                "startTimestamp": 1705687200000,
-                "endTimestamp": 1705689360000
-            },
-            {
-                "customerId": 20205,
-                "callId": "c533d9e0-c985-4b47-85f9-86e5c21d1893",
-                "startTimestamp": 1705306620000,
-                "endTimestamp": 1705309320000
-            }
-        ]
-    }
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
