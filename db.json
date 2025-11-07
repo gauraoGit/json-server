@@ -1,11 +1,33 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ]
+    "exp": {
+        "operation": "SUBTRACT",
+        "inputs": [
+            {
+                "operation": "CONSTANT_NUMBER",
+                "value": 20
+            },
+            {
+                "operation": "ADD",
+                "inputs": [
+                    {
+                        "operation": "SUBTRACT",
+                        "inputs": [
+                            {
+                                "operation": "CONSTANT_NUMBER",
+                                "value": 3
+                            },
+                            {
+                                "operation": "CONSTANT_NUMBER",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "operation": "CONSTANT_NUMBER",
+                        "value": 5
+                    }
+                ]
+            }
+        ]
+    }
 }
